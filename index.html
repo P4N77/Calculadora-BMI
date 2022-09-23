@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
-<body>
-    
+<body style="background-color: rgb(151, 249, 249);"> 
+    <div class="container" id="contenedor">
+        <div class="row">
+            <div class="col-12">
+        <h1 class="text-center" id="texto">CALCULADORA DE IMC </h1>
+        </div>
+
+            <div class="col-6 text-center">
+                    <p class="texto_temperatura text-center" id="peso_texto">Peso</p>
+        <input type="number" id="peso">
+        <p class="texto_temperatura text-center" id="altura_texto">Altura</p>
+        <input type="number" id="altura"><br>
+            
+            <button id="boton">CALCULAR</button><br>
+            <button id="boton2">REINICIAR</button>
+            </div>
+
+            <div class="col-6 text-center">
+                <p>Resultado:</p>
+            <div id="resultado"></div>
+            <img src="./imc.png" alt="imc" width="400px" height="330px">
+            </div>
+
+            <script src="./main.js"></script>
+    </div>
+        </div>
+    </body>
 </body>
 </html>
