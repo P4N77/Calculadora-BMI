@@ -6,6 +6,7 @@ body{
     width: 60px;
     height: 60px;
     margin: auto;
+    background-color: cadetblue
 }
 #contenedor{
     height: 550px;
